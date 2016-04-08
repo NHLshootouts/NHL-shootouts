@@ -11,6 +11,7 @@ require(dotwhisker)
 require(RCurl)
 require(mvtnorm)
 require(msm)
+require(EDISON)
 require(MCMCpack)
 
 
@@ -406,6 +407,7 @@ mean((so.wins.good-so.wins.average)<=0)
 set.seed(20142015)
 #set.seed(20122013)
 options(stringsAsFactors = FALSE)
+shootout <- nhl
 
 k=nrow(shootout)
 #k=1000
