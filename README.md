@@ -4,13 +4,13 @@ This file contains R code for an analysis of NHL shootouts.
 
 There are two sets of code, each of which links to public csv files to extract the data. 
 
-The [team level code](https://github.com/statsbylopez/NHL_Shootouts/blob/master/TeamCode.R) provides our team level analysis. There are a few parts to the team level code.
+The [team level code](https://github.com/NHLshootouts/NHL-shootouts/blob/master/TeamCode.R) provides our team level analysis. There are a few parts to the team level code.
 
 1. Year-to-year variability in team shootout win percentage
 2. Does the team that shoots first win the shootout?
 3. Visiting team win percentage look over time
 
-The [individual level code](https://github.com/statsbylopez/NHL_Shootouts/blob/master/IndividualCode.R) provides individual level analysis. There are many parts to the individual level code
+The [individual level code](https://github.com/NHLshootouts/NHL-shootouts/blob/master/IndividualCode.R) provides individual level analysis. There are many parts to the individual level code
 
 1. Descriptive statistics, including funnel plots for shooters and goalies
 2. Generalized linear models, and generalized linear mixed models, of goal outcomes (Yes/No), along with coefficient plots
