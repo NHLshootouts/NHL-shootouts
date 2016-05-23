@@ -108,7 +108,7 @@ tab<-filter(tab,size>=10)
 p <- ggplot(data = tab, aes(x = size, y = save_rate)) +
   geom_point(aes(text = paste("Player:", Goalie2)), size = 4,
              position = position_jitter(width = .015,height=0.015)) +theme_bw()+theme.plots+
-  scale_y_continuous("",breaks=c(0,0.25,0.5,0.75,1),labels=c("0%","25%","50%","75%","100%"),lim=c(0.35,1.01))+
+  scale_y_continuous("",breaks=c(0,0.25,0.5,0.75,1),labels=c("0%","25%","50%","75%","100%"),lim=c(0,1.01))+
   scale_x_continuous("Attempts")+ggtitle("Shootout save percentage, goalies")+
   geom_line(data=lin,aes(x=attempts,y=UL),col="red",lty=5)+
   geom_line(data=lin,aes(x=attempts,y=LL),col="red",lty=5)+
