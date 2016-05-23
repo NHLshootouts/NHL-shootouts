@@ -105,7 +105,7 @@ p<-ggplot(tab.VisWin, aes(x=Year, y=WinRate)) +
   geom_errorbar(aes(ymin=WinRate-1.96*SE, ymax=WinRate+1.96*SE), colour="black", width=.1) +
   geom_line() +
   geom_point(size=3, shape=16) +
-  scale_y_continuous("",labels=c("40%","50%","60%","70%"))+
+  scale_y_continuous("",labels=c("0%", "10%", "20%", "30%", "40%","50%","60%","70%"), breaks = 0:7/10, lim = c(0, 0.7))+
   theme_bw()+theme.plots+
   ggtitle("Visiting team SO win percentage")+geom_hline(aes(yintercept=0.5),col="red",lty=2)+
   scale_x_continuous("Season",breaks=2006:2015,labels=c("2005-06","2006-07","2007-08","2008-09",
