@@ -1,6 +1,6 @@
 # NHL_Shootouts
 
-This file contains R code for an analysis of NHL shootouts.
+This file contains R code for an analysis of NHL shootouts. The article was published in Journal of Sports Sciences (online in July 2016), and can be found [here](http://www.tandfonline.com/doi/full/10.1080/02640414.2016.1198046)
 
 There are two sets of code, each of which links to public csv files to extract the data. 
 
